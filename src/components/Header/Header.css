@@ -1,0 +1,16 @@
+.navbar .navlink{
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    margin: 0px 10px
+}
+
+.navbar-brand{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    height: inherit;
+}
+
+.navbar-nav .navlink:hover, .navbar-nav .navlink:focus{
+    color: #5FCF80;
+}
