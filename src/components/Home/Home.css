@@ -1,0 +1,27 @@
+.banner{ 
+	background: url("https://image.freepik.com/free-photo/close-up-hand-writing-notebook-top-view_23-2148888824.jpg") no-repeat center;
+    background-size: cover;
+	min-height: 670px;
+    position: relative;
+}
+
+.bg-color{
+    background-color: RGBA(12, 11, 11, 0.79);
+	min-height: 670px;
+}
+.text-dec{
+	padding: 10px 20px;
+    margin: 15px 0;
+	text-transform: uppercase;
+}
+
+.text-border{
+	border: 5px solid #5FCF80;
+	display: inline-block;
+	margin-top: 150px;
+}
+
+.btn{
+    background-color:#5FCF80;
+    color: #5FCF80;
+}
