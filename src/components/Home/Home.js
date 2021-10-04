@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import { Button, Col, Row } from 'react-bootstrap';
 import './Home.css';
 
 const Home = () => {
@@ -21,8 +21,55 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="my-3">
+            <div className="m-5 bg-light">
                 <h1>Top Courses</h1>
+                <Row xs={1} md={4} className="g-2">
+                    <Col>
+                        <div className='course text-center h-100 border border-dark py-3 m-3 rounded-3'>
+                            <img className='w-25 h-25' src={"https://cdn.worldvectorlogo.com/logos/react-2.svg"} alt="" />
+                            <div className=''>
+                                <h4 className='my-3'>React </h4>
+                                <p>Category: Web </p>
+                                <p>Instructor: Dr. Angela Yu
+                                </p>
+                                <h5>Price: $79.99</h5>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className='course text-center h-100 border border-dark py-3 m-3 rounded-3'>
+                            <img className='w-25 h-25' src={"https://cdn.worldvectorlogo.com/logos/python-5.svg"} alt="" />
+                            <div className=''>
+                                <h4 className='my-3'>Python Bootcamp</h4>
+                                <p>Category: Programming Language</p>
+                                <p>Instructor: Jose Portilla</p>
+                                <h5>Price: $89.99</h5>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className='course text-center h-100 border border-dark py-3 m-3 rounded-3'>
+                            <img className='w-25 h-25' src={"https://cdn.worldvectorlogo.com/logos/nodejs-2.svg"} alt="" />
+                            <div className=''>
+                                <h4 className='my-3'>Node </h4>
+                                <p>Category: Web </p>
+                                <p>Instructor: Anthony Alicea</p>
+                                <h5>Price: $76.99</h5>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className='course text-center h-100 border border-dark py-3 m-3 rounded-3'>
+                            <img className='w-25 h-25' src={"https://cdn.worldvectorlogo.com/logos/flutter.svg"} alt="" />
+                            <div className=''>
+                                <h4 className='my-3'>Flutter </h4>
+                                <p>Category: App </p>
+                                <p>Instructor: Maximilian Schwarzmüller</p>
+                                <h5>Price: $79.99</h5>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
             </div>
         </div>
     );
