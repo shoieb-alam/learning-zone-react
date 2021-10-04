@@ -1,0 +1,13 @@
+.bg-404{ 
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+ }
+		 
+.link-404{
+    display: inline-block;
+}
+
+.text-404{ 
+    margin-top:-50px;
+}

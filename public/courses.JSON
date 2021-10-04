@@ -1,0 +1,110 @@
+[
+    {
+        "key": "0001",
+        "name": "Python Bootcamp",
+        "category": "Programming Language",
+        "price": 89.99,
+        "instructor": "Jose Portilla",
+        "description": "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games",
+        "img": "https://cdn.worldvectorlogo.com/logos/python-5.svg"
+    },
+    {
+        "key": "0002",
+        "name": "Machine Learning",
+        "category": "Data Science",
+        "price": 79.99,
+        "instructor": "Ardit Sulce",
+        "description": "Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Hey_Machine_Learning_Logo.png"
+    },
+    {
+        "key": "0003",
+        "name": "Web Development Bootcamp",
+        "category": "Web",
+        "price": 65.99,
+        "instructor": "Dr. Angela Yu",
+        "description": "Become a full-stack web developer with just one course. HTML, CSS, Javascript, Node, React, MongoDB and more!",
+        "img": "https://www.websterdevelopers.com/wp-content/uploads/2021/05/web-development-logo.png"
+    },
+    {
+        "key": "0004",
+        "name": "C++",
+        "category": "Language",
+        "price": 59.99,
+        "instructor": "John Purcell",
+        "description": "Discover intermediate to advanced C++, including C++ 11's fantastic additions to the C++ standard.",
+        "img": "https://cdn.worldvectorlogo.com/logos/c.svg"
+    },
+    {
+        "key": "0005",
+        "name": "React",
+        "category": "Web",
+        "price": 79.99,
+        "instructor": "Dr. Angela Yu",
+        "description": "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!",
+        "img": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
+    },
+    {
+        "key": "0006",
+        "name": "Javascript",
+        "category": "Web",
+        "price": 56.99,
+        "instructor": "Maximilian Schwarzmüller",
+        "description": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
+        "img": "https://cdn.worldvectorlogo.com/logos/javascript-1.svg"
+    },
+    {
+        "key": "0007",
+        "name": "Angular",
+        "category": "Web",
+        "price": 89.99,
+        "instructor": "Maximilian Schwarzmüller",
+        "description": "Master Angular 12 and build awesome, reactive web apps with the successor of Angular.js",
+        "img": "https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg"
+    },
+    {
+        "key": "0008",
+        "name": "Data Structure",
+        "category": "Software Engineering",
+        "price": 69.99,
+        "instructor": "Abdul Bari",
+        "description": "Learn, Analyse and Implement Data Structure using C and C++. Learn Recursion and Sorting.",
+        "img": "https://cdn.worldvectorlogo.com/logos/data-1.svg"
+    },
+    {
+        "key": "0009",
+        "name": "Node",
+        "category": "Web",
+        "price": 76.99,
+        "instructor": "Anthony Alicea",
+        "description": "Dive deep under the hood of NodeJS. Learn V8, Express, the MEAN stack, core Javascript concepts, and more.",
+        "img": "https://cdn.worldvectorlogo.com/logos/nodejs-2.svg"
+    },
+    {
+        "key": "0010",
+        "name": "Flutter",
+        "category": "App",
+        "price": 79.99,
+        "instructor": "Maximilian Schwarzmüller",
+        "description": "A Complete Guide to the Flutter SDK & Flutter Framework for building native iOS and Android apps",
+        "img": "https://cdn.worldvectorlogo.com/logos/flutter.svg"
+    },
+    {
+        "key": "0011",
+        "name": "TypeScript",
+        "category": "Web",
+        "price": 59.99,
+        "instructor": "Maximilian Schwarzmüller",
+        "description": "Don't limit the Usage of TypeScript to Angular! Learn the Basics, its Features, Workflows and how to use it!",
+        "img": "https://cdn.worldvectorlogo.com/logos/typescript.svg"
+    },
+    {
+        "key": "0012",
+        "name": "Appium",
+        "category": "Testing",
+        "price": 69.99,
+        "instructor": "Rahul Shetty",
+        "description": "Master on Mobile Automation Testing (Android/IOS) from basics to Framework CI/CD with real time examples",
+        "img": "https://cdn.worldvectorlogo.com/logos/appium.svg"
+    }
+]

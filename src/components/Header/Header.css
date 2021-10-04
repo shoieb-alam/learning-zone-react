@@ -3,14 +3,17 @@
     color: #000;
     text-decoration: none;
     margin: 0px 10px
-}
+} 
 
 .navbar-brand{
     font-family: 'Dosis', sans-serif;
     font-weight: 700;
     height: inherit;
 }
-
+.navbar-brand:hover{
+    background-color: #5FCF80;
+    border-radius: 10px;
+}
 .navbar-nav .navlink:hover, .navbar-nav .navlink:focus{
     color: #5FCF80;
 }
