@@ -3,6 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import './Success.css';
+import Img1 from './../../image/student-1.png';
+import Img2 from './../../image/student-2.png';
+import Img3 from './../../image/student-3.png';
+import Img4 from './../../image/student-4.png';
 
 const Success = () => {
     return (
@@ -18,7 +22,7 @@ const Success = () => {
 
                         <Col>
                             <Card className="h-100">
-                                <Card.Img variant="top" className="w-25 mx-auto" src={"https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-8-avatar-2754583_120515.png"} />
+                                <Card.Img variant="top" className="w-25 mx-auto" src={Img1} />
                                 <Card.Body>
                                     <Card.Text>
                                         <p>
@@ -38,7 +42,7 @@ const Success = () => {
 
                         <Col>
                             <Card className="h-100">
-                                <Card.Img variant="top" className="w-25 mx-auto" src={"https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-3-avatar-2754579_120516.png"} />
+                                <Card.Img variant="top" className="w-25 mx-auto" src={Img2} />
                                 <Card.Body>
                                     <Card.Text>
                                         <p>
@@ -57,7 +61,7 @@ const Success = () => {
 
                         <Col>
                             <Card className="h-100">
-                                <Card.Img variant="top" className="w-25 mx-auto" src={"https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-7-avatar-2754582_120519.png"} />
+                                <Card.Img variant="top" className="w-25 mx-auto" src={Img3} />
                                 <Card.Body>
                                     <Card.Text>
                                         <p>
@@ -76,7 +80,7 @@ const Success = () => {
 
                         <Col>
                             <Card className="h-100">
-                                <Card.Img variant="top" className="w-25 mx-auto" src={"https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-11-avatar-2754576_120520.png"} />
+                                <Card.Img variant="top" className="w-25 mx-auto" src={Img4} />
                                 <Card.Body>
                                     <Card.Text>
                                         <p>
