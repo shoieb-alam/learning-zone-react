@@ -1,9 +1,5 @@
-.course{
-    background-color: whitesmoke;
-}
-
 .course:hover{
     background-color: black;
     color: white;
-    box-shadow: 0 0 20px rgba(119, 250, 141, 0.849);
+    box-shadow: 0 0 30px rgba(138, 255, 158, 0.972);
 }

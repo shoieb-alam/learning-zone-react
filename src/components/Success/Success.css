@@ -1,9 +1,9 @@
+/* heading colored-text */
 .colored-text{
     color: #5FCF80;
 }
-.Card{
-    background-color: black;
-}
-.success{
+
+/* background color  */
+.bg-color{
     background-color: #e2fddd;
 }

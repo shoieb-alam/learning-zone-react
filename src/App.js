@@ -16,24 +16,32 @@ function App() {
       <Router>
         <Header></Header>
         <Switch>
+
+          {/* default path  */}
           <Route exact path='/'>
             <Home></Home>
           </Route>
+
           <Route path='/home'>
             <Home></Home>
           </Route>
+
           <Route path='/about'>
             <About></About>
           </Route>
+
           <Route path='/courses'>
             <CourseField></CourseField>
           </Route>
+
           <Route path='/success'>
             <Success></Success>
           </Route>
+
           <Route path='*'>
             <NotFound></NotFound>
           </Route>
+
         </Switch>
         <Footer></Footer>
       </Router>

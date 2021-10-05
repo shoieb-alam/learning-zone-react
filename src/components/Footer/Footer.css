@@ -1,6 +1,10 @@
-.icon{
-    margin: 20px;
+.site-name{
+    font-family: 'Dosis';
 }
+
 .social-media a{
     color: white;
+}
+.social-media a:hover{
+    color: #5FCF80;
 }

@@ -1,0 +1,38 @@
+[
+    {
+        "key": "0001",
+        "name": "Python Bootcamp",
+        "category": "Programming Language",
+        "price": 89.99,
+        "instructor": "Jose Portilla",
+        "description": "Learn Python like a Professional Start from the basics and go all the way to creating your own applications and games",
+        "img": "https://cdn.worldvectorlogo.com/logos/python-5.svg"
+    },
+    {
+        "key": "0005",
+        "name": "React",
+        "category": "Web",
+        "price": 79.99,
+        "instructor": "Dr. Angela Yu",
+        "description": "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!",
+        "img": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
+    },
+    {
+        "key": "0009",
+        "name": "Node",
+        "category": "Web",
+        "price": 76.99,
+        "instructor": "Anthony Alicea",
+        "description": "Dive deep under the hood of NodeJS. Learn V8, Express, the MEAN stack, core Javascript concepts, and more.",
+        "img": "https://cdn.worldvectorlogo.com/logos/nodejs-2.svg"
+    },
+    {
+        "key": "0010",
+        "name": "Flutter",
+        "category": "App",
+        "price": 79.99,
+        "instructor": "Maximilian Schwarzmüller",
+        "description": "A Complete Guide to the Flutter SDK & Flutter Framework for building native iOS and Android apps",
+        "img": "https://cdn.worldvectorlogo.com/logos/flutter.svg"
+    }
+]

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { Container, Row } from 'react-bootstrap';
 import Course from '../Course/Course';
 import './CourseField.css'
 
@@ -13,16 +14,19 @@ const CourseField = () => {
             .then(data => setCourses(data))
     }, [])
     return (
-        <div className="container bg-dark">
-            <div className="course-container">
-                {
-                    courses.map(course => <Course
-                        key={course.key}
-                        course={course}
-                    ></Course>)
-                }
+        <Container>
+            {/* courses part */}
+            <div className="bg-dark p-3">
+                <Row xs={1} sm={2} md={2} lg={3}>
+                    {
+                        courses.map(course => <Course
+                            key={course.key}
+                            course={course}
+                        ></Course>)
+                    }
+                </Row>
             </div>
-        </div>
+        </Container>
     );
 };
 

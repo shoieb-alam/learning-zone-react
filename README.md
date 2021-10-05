@@ -5,5 +5,5 @@ Let's explore [Learning Zone](https://review-website-shoieb.netlify.app/).
 ## Available Points
 
 * Top Courses
-* Courses categories
+* Courses Categories
 * Testimonials

@@ -6,18 +6,21 @@ import './Header.css'
 const Header = () => {
 
     return (
-        <Navbar className='navbar bg-light fixed-top'>
+        // responsive navbar 
+        <Navbar collapseOnSelect expand="lg" className='navbar bg-light fixed-top'>
             <Container>
                 <Link to="/" className="text-decoration-none">
-                    <Navbar.Brand className='navbar-brand fs-2 px-2'>LEARNING ZONE</Navbar.Brand>
+                    <Navbar.Brand className='navbar-brand rounded-pill fs-2 fw-bold px-3'>LEARNING ZONE</Navbar.Brand>
                 </Link>
-
-                <nav className="navbar-nav ms-auto">
-                    <NavLink className='navlink' to="/home">Home </NavLink>
-                    <NavLink className='navlink' to="/about">About Us</NavLink>
-                    <NavLink className='navlink' to="/courses">Courses</NavLink>
-                    <NavLink className='navlink' to="/success">Success</NavLink>
-                </nav>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <nav className="navbar-nav fw-bold ms-auto">
+                        <NavLink className='navlink' to="/home">Home </NavLink>
+                        <NavLink className='navlink' to="/about">About Us</NavLink>
+                        <NavLink className='navlink' to="/courses">Courses</NavLink>
+                        <NavLink className='navlink' to="/success">Success</NavLink>
+                    </nav>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
     );
