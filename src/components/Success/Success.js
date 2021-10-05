@@ -16,7 +16,7 @@ const Success = () => {
 
                 <h1 className="pb-5">What <span className="colored-text">Students</span> says</h1>
 
-                <div className="bg-color p-5">
+                <div className="success-bg p-5">
 
                     <Row xs={1} md={2} className="g-4">
 

@@ -16,7 +16,7 @@ const Home = () => {
     return (
         <div>
             {/* bannar part */}
-            <div className="text-dark text-center">
+            <div className="banner text-white text-center">
                 <div className="bg-color">
                     <div className="text-border">
                         <h2 className="fs-3 m-3 p-2">LEARNING ZONE</h2>
